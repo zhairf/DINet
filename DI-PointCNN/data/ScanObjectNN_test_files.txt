@@ -1,0 +1,1 @@
+../data/h5_files/main_split/test_objectdataset_augmentedrot_scale75.h5
