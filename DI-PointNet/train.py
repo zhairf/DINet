@@ -27,7 +27,7 @@ parser.add_argument('--momentum', type=float, default=0.9, help='Initial learnin
 parser.add_argument('--optimizer', default='adam', help='adam or momentum [default: adam]')
 parser.add_argument('--decay_step', type=int, default=200000, help='Decay step for lr decay [default: 200000]')
 parser.add_argument('--decay_rate', type=float, default=0.8, help='Decay rate for lr decay [default: 0.8]')
-parser.add_argument('--err_data', type=float, default=3000, help='the number of negative [default: 3000]')
+parser.add_argument('--err_data', type=int, default=3000, help='the number of negative [default: 3000]')
 parser.add_argument('--weight', type=float, default=100)
 parser.add_argument('--data_set', default='ScanObjectNN',help='data set name: ScanObject or ModelNet40 [default: ScanObjectNN]')
 FLAGS = parser.parse_args()
