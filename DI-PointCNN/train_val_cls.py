@@ -32,7 +32,7 @@ def main():
     parser.add_argument('--log', help='Log to FILE in save folder; use - for stdout (default is log.txt)', metavar='FILE', default='log.txt')#default='log.txt'输出存入文档//default='-'显示输出
     parser.add_argument('--no_timestamp_folder', help='Dont save to timestamp folder', action='store_true')
     parser.add_argument('--no_code_backup', help='Dont backup code', action='store_true',default='True')
-    parser.add_argument('--err_data', type=float, default=5708)
+    parser.add_argument('--err_data', type=float, default=5696)
     parser.add_argument('--weight', type=float, default=10)
     args = parser.parse_args()
     
