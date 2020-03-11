@@ -3,7 +3,7 @@
 You need to download the data to the “data“ folder and unzip it before training the model.  
 RELATED LINKS：  
 >ModelNet40:"https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip"  
->ScanObjectNN:”https://github.com/hkust-vgd/scanobjectnn“
+>ScanObjectNN:"https://github.com/hkust-vgd/scanobjectnn"
 ## Usage
 The code has been tested with Python 3.6.9, TensorFlow-gpu 1.12.0, on windows10.  
 >* To train DI-PointNet on ModelNet40 run  
